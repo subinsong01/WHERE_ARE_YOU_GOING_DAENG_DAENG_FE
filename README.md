@@ -8,7 +8,6 @@
 
 - 🔗 <a href="https://fronttest.daengdaeng-where.link/"> 서비스 둘러보기 : 댕댕어디가 공식 웹사이트</a>
 - 🔗 <a href="https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_FE"> Frontend Repository</a>
-- 🔗 <a href="https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_-"> Backend Repository</a>
 
 ## 🩷 프로젝트 기간 
 **2024.11.12 ~ 2024.12.19**
@@ -113,11 +112,6 @@ daeng/
 <br />
 </details>
 
-### Backend
-<details>
-  <summary><strong> ✨ 확인하기</strong> </summary>
-</details>
-
 ## 🩷 구현 과정 및 성과
 
 ### Frontend
@@ -146,52 +140,6 @@ daeng/
 - VALUE 값 변경마다 API 호출 대신, 일정 시간 간격으로 호출 처리
 ---
 </details>
-
-
-### Backend
-<details>
-  <summary><strong>📚 확인하기</strong> </summary>
-  
----
-#### 1️⃣ Full-Text Search 
-- **Text Indexing**: 텍스트를 개별 단어(토큰)로 나눈 후 각 단어에 대한 색인을 생성
-- **검색 우선순위**: 일치하는 키워드는 우선순위로 표시 이후 생성된 색인으로 검색 후 결과 출력
----
-#### 2️⃣ 리뷰 조회 - 동적 쿼리
-- **🧐 문제점**
-  - 최신순 , 평점 높은순, 평점 낮은순 으로 정렬
-  - 정렬 개수만큼 조회 쿼리가 필요
-  - 쿼리 수정이 필요할때마다 3개의 쿼리 수정 
-- **🥳 해결 방안**
-  - 검색 조건에 따라 실행 시점에서 쿼리를 생성하기 위해 동적쿼리 필요
-  <br/>
-  <table>
-    <th>Criteria</th>
-    <td> 쿼리가 복잡하여 생성될 쿼리를 파악하기 어려움</td>
-    <th>QueryDSL</th>
-    <td> 쉽고 간결하여 쿼리 파악하기 쉬움</td>
-  </table>
----
-#### 3️⃣ 리뷰 조회 - 무한 스크롤
-- **Offset**
-  - 데이터가 많을 경우 뒤로갈 수록 조회 성능 저하
-  - count 쿼리 필요
-- **No Offset**
-  - 기준 Key가 중복된다면 중복된 결과를 전달
-  - 페이징 방식에서 적용 불가
-  - **92.3%** 개선
----
-#### 4️⃣ 실시간 땅 유저 조회 
-- **🧐 문제점**
-  - 최신 땅 주인을 조회하기 위해 Region_owner_log 테이블을 매번 정렬해서 조회
-  - 실행 계획 분석 결과, Using Filesort 진행
-    
-- **🥳 해결 방안**
-  - [시/도,시군구읍,생성날짜]를 복합 인덱스 처리하여 인덱싱기반 조회
-  - Redis의 Set 자료형으로 최근 땅 주인을 캐싱
----
-</details>
-
 
 ## 🩷 유저 및 피드백
 
@@ -366,9 +314,4 @@ daeng/
 <img width="1000" alt="프론트엔드 깃 컨벤션" src="https://github.com/user-attachments/assets/188806f9-9c6f-48d8-bb7b-ec59426e0292" />
 
 <br />
-</details>
-
-### Backend
-<details>
-  <summary><strong> ✨ 확인하기</strong> </summary>
 </details>
