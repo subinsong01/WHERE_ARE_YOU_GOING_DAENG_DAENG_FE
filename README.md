@@ -15,26 +15,19 @@
 ## 🩷 리팩토링 기간 
 **2025.01.14 ~ 2025.02.17**
 
-| **FE**   | 송수빈 | 반려동물 CRUD&마이페이지, 리뷰, How-to-guide 페이지 및 배너, 알림(FCM), Admin, 스토리 업로드 및 삭제 |
+**리팩토링 및 최적화 과정** 
+<a> : https://devsubin.hashnode.dev/</a>
 
-## 🩷 주요 기능 
-- **장소 검색**
-  -   반려동물 동반 가능 시설 목록 제공
-  -   사용자는 위치 & 키워드로 장소 검색 가능
-  -   사용자 맞춤 필터링 기능 제공
-
-- **장소 추천**
-  - **우리 댕댕이가 좋아할 것 같아요** : 선호장소타입과 현위치와의 거리차 등을 종합한 장소 3곳 추천
-  - **요즘 뜨는 장소 알려드려요** : 즐겨찾기 수가 많은 인기 장소 3곳 추천
-  - **댕댕어디가 추천 장소** : 유저의 실시간 위치 고려 및 별점 높은 장소 3곳 추천
-
-- **땅따먹기**
-  - 리뷰 등록을 일반 리뷰와 실시간 리뷰로 구분
-  - 실시간 리뷰 작성 시, 지역 시설을 가장 많이 방문한 유저가 그 지역의 땅을 획득
-  - 보상으로 땅 주인은 스토리 업로드 가능(땅 주인은 실시간으로 변경 가능) 
-
-## 🩷 프로젝트 설계
-
+## 🩷 맡은 페이지 & 역할 
+### 프론트엔드(FE)
+  - 반려동물 CRUD
+  - 유저 마이페이지
+  - 리뷰 CRUD
+  - How-to-guide 페이지 및 배너 제작
+  - 알림(FCM)
+  - Admin페이지
+  - 스토리 업로드 및 삭제 기능 구현
+    
 ## 🩷 Figma
 <a href="https://www.figma.com/design/0cGW8rkHYLpa2Q2tDC7uSY/%EC%82%B0%EC%B1%85%EC%8B%9C%EC%BC%9C%EC%A1%B0?node-id=2142-228&t=TZzNLFFZLisTf3yL-1">**🔗 Figma 확인하기**</a>
 <br />
@@ -46,7 +39,6 @@
 ### Frontend
 <details>
   <summary><strong> ✨ 확인하기</strong> </summary>
-
 
 ```plaintext
 daeng/
@@ -77,35 +69,6 @@ daeng/
 <br />
 </details>
 
-## 🩷 구현 과정 및 성과
-
-### Frontend
-<details>
-  <summary><strong>📚 확인하기</strong> </summary>
-  
----
-#### 1️⃣ Storybook
-- **UI 일관성 유지**: 스토리북을 활용해 컴포넌트 스타일 및 기능 테스트.
-- **컴포넌트 관리와 재사용성 향상**: 프로젝트 내에서 공통 UI를 효율적으로 관리.
-
----
-
-#### 2️⃣ 지도 API 성능 개선
-- **실시간 위치 추적 정확도 개선**:
-  - 기존 `getCurrentPosition()` → 개선된 `watchPosition()`으로 변경.
-  - 실시간 위치 추적 시 정확도를 높임.
-- **시군구 경계 데이터 최적화**:
-  - 시군구 JSON 데이터를 `gzip`으로 압축.
-  - 압축 데이터를 사용하여 로딩 속도 개선.
-
----
-
-#### 3️⃣ Debounce 적용
-- API 호출 시 서버 과부하를 방지하기 위해 **Debounce** 개념 도입.
-- VALUE 값 변경마다 API 호출 대신, 일정 시간 간격으로 호출 처리
----
-</details>
-
 ## 🩷 유저 및 피드백
 
 ### 📅 12월 10일에 1차 MVP 완성
@@ -113,24 +76,6 @@ daeng/
 - **네이버 애널리틱스**로 유저 및 유입 경로 분석
 
   
-#### 1월 10일
-
-<img width="1046" alt="광고 1차 실적" src="https://github.com/user-attachments/assets/1a46519f-5343-4c6f-9fb3-b81e412c8b60" />
-
-
-  
-#### 1월 15일
-<img width="1046" alt="광고 2차 실적" src="https://media.discordapp.net/attachments/1306901337052676191/1317513290288730253/image.png?ex=678e6b5e&is=678d19de&hm=f89635ff39dde5ee49e3363e0a4f4d5589ef6e360a09409347729feb173f56f0&=&format=webp&quality=lossless&width=2160&height=924" />
-
-## 🧐 네이버 애널리틱스 결과 및 서비스 설문조사 진행 결과 
-<a href="https://docs.google.com/spreadsheets/d/1_Q3rmGFtDyi9_AtYuU-3TUfE_O7vSs3KGXjmlwi5PtE/edit?usp=sharing"> **🔗 설문조사 결과** </a>
-<br />
-
-<img width="1211" alt="네이버 애널리틱스 결과 및 서비스 설문조사 " src="https://github.com/user-attachments/assets/914a01d4-880c-4367-9057-73e3193fd399" />
-
-> 유저들의 실제 피드백
-<img width="1046" alt="피드백 테이블 이미지" src="https://github.com/user-attachments/assets/9633673f-4df5-4c80-a539-28db387da16e" />
-
 
 ## 🩷 기술 스택
 <h3>FrontEnd</h3>
