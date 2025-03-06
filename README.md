@@ -15,25 +15,7 @@
 ## 🩷 리팩토링 기간 
 **2025.01.14 ~ 2025.02.17**
 
-## 🩷 팀 소개
-| 김가은[조장] | 김승환 | 김지윤 | 박상희 |송수빈|지연우[부조장]|하진서|
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| <img src="https://avatars.githubusercontent.com/u/63792723?v=4" alt="김가은" width="150"> | <img src="https://avatars.githubusercontent.com/u/101561741?v=4" alt="김승환" width="170"> | <img src="https://avatars.githubusercontent.com/u/147837947?v=4" alt="김지윤" width="170"> | <img src="https://avatars.githubusercontent.com/u/175171101?v=4" alt="박상희" width="170"> |<img src="https://avatars.githubusercontent.com/u/134045937?v=4" alt="송수빈" width="170"> |<img src="https://avatars.githubusercontent.com/u/110551002?v=4" alt="지연우" width="150"> |<img src="https://avatars.githubusercontent.com/u/131326799?v=4" alt="하진서" width="170"> |
-| BE | BE | BE | FE |FE|FE|BE|
-| [@13wjdgk](https://github.com/13wjdgk) | [GitHub](https://github.com/lixxce5017) | [GitHub](https://github.com/jiyun829) | [GitHub](https://github.com/tkdgml1241) |[GitHub](https://github.com/subinsong01) | [GitHub](https://github.com/wldusdn) | [GitHub](https://github.com/xnfnfnr) |
-
-
-
-## 🩷 각 멤버 작업 내역
-| 파트 | 이름   | 역할                                                                                     |
-|------|--------|------------------------------------------------------------------------------------------|
-|**BE** | 김가은 | AWS 서버 구성, 리뷰 시스템, 알림 시스템, 땅따먹기 시스템 |
-|**BE**  |  김승환| 장소 추천, aws 서버 & CI/CD, oauth & 쿠키 관리, 시큐리티 |
-| **BE** | 김지윤 | 메인페이지 장소 api, 장소 조회, 장소 검색, AI 리뷰 요약  
-| **FE**   | 박상희 | 소셜 로그인, 회원정보 CRUD,선호도 등록&수정, 메인페이지&장소추천, 페스티벌 배너, 스토리 업로드 및 삭제   |
 | **FE**   | 송수빈 | 반려동물 CRUD&마이페이지, 리뷰, How-to-guide 페이지 및 배너, 알림(FCM), Admin, 스토리 업로드 및 삭제 |
-| **FE**  | 지연우 | 검색 & 시설 상세 & 즐겨찾기, 땅따먹기, 에러 퍼블리싱, 방문등록 & 실시간 리뷰, 구글 맵 API, FE 배포 & CI/CD|
-| **BE**  | 하진서| 반려동물 API, 선호도 API, 즐겨찾기 API, 스토리 API, 알림 목록 조회 API                                  |
 
 ## 🩷 주요 기능 
 - **장소 검색**
@@ -51,33 +33,13 @@
   - 실시간 리뷰 작성 시, 지역 시설을 가장 많이 방문한 유저가 그 지역의 땅을 획득
   - 보상으로 땅 주인은 스토리 업로드 가능(땅 주인은 실시간으로 변경 가능) 
 
-## 🩷 Software Architecture
-<img width="1100" alt="SW Architecture" src="https://github.com/user-attachments/assets/74470a5f-9985-4344-b6ef-1e1bf66fb8ac" />
-
 ## 🩷 프로젝트 설계
-
-- **AWS 1차**
-<img width="1100" alt="aws1" src="https://github.com/user-attachments/assets/143c4b39-a148-49f4-a16c-e372261aa82c" />
-
-
-- **AWS 2차**
-<img width="1100" alt="aws2" src="https://github.com/user-attachments/assets/803c4e95-2be0-4e74-a709-9137f6bfeb24" />
-
-## 🩷 ERD
-<a href="https://www.erdcloud.com/d/ZxgjWWypDkE9sGXf9">**🔗 ERD 확인하기**</a>
-<br />
-<br />
-<img width="1062" alt="erd" src="https://github.com/user-attachments/assets/2e855e37-15b6-4f93-8761-aff95cc9d898" />
 
 ## 🩷 Figma
 <a href="https://www.figma.com/design/0cGW8rkHYLpa2Q2tDC7uSY/%EC%82%B0%EC%B1%85%EC%8B%9C%EC%BC%9C%EC%A1%B0?node-id=2142-228&t=TZzNLFFZLisTf3yL-1">**🔗 Figma 확인하기**</a>
 <br />
 <br />
 <img width="1048" alt="figma" src="https://github.com/user-attachments/assets/b3994d96-ecb2-4a4c-9bac-a62b2a482c55" />
-
-## 🩷 API 명세서
-<a href="https://www.notion.so/swgani/API-15839d11ffe78149a3e4ddff526b6e1f">**🔗 API 명세서 확인하기**</a>
-
 
 ## 🩷 프로젝트 폴더 구조
 
@@ -169,16 +131,6 @@ daeng/
 > 유저들의 실제 피드백
 <img width="1046" alt="피드백 테이블 이미지" src="https://github.com/user-attachments/assets/9633673f-4df5-4c80-a539-28db387da16e" />
 
-## 🩷 유저들의 피드백 반영
-
-### 1️⃣ 검색어 자동완성 
-<img width="1024" alt="검색어" src="https://github.com/user-attachments/assets/627ca607-0f38-4df1-ada8-07cb285ee50a" />
-
-### 2️⃣ 이미지 Resizing
-<img width="1024" alt="Image Resizing" src="https://github.com/user-attachments/assets/606f6933-ac50-4a78-be55-d22900313ed7" />
-
-### 3️⃣ 지도
-<img width="1024" alt="지도" src="https://github.com/user-attachments/assets/11b15e75-d4e2-405e-982c-cbd02bf70df6" />
 
 ## 🩷 기술 스택
 <h3>FrontEnd</h3>
@@ -216,53 +168,7 @@ daeng/
   </tr>
 </table>
 
-<h3>BackEnd</h3>
-<table>
-  <tr>
-    <td><img width="100" src="https://images-ext-1.discordapp.net/external/rVQuC6iv7sjbq3WpN6HIo25xoOGOED0_wFXDi5ItXWg/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1583139980/noticon/vtzecmjzn39cifnjtonx.png?format=webp&quality=lossless&width=400&height=400" alt="spring boot"></td>
-    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1687307488/noticon/o9lxyva5z8zbwyeaxers.png" alt="JPA"></td>
-    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1686935854/noticon/r7w1ipwmdmhlfzqfw69h.png" alt="security"></td>
-<td><img width="100" src="https://images-ext-1.discordapp.net/external/H14Nnyr7VzWus90kpcLNlQ83N_FG6qwdU7E0xQqAWKs/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913591/noticon/e2bd9zw78n6zw6his4bd.png?format=webp&quality=lossless&width=400&height=400" alt="mysql"></td>
-<td><img width="100" src="https://images-ext-1.discordapp.net/external/xPY0xedRgjP2QmgXUm_tyRmxGix6hZAf66AIXzESgZs/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1568175385/noticon/iodu1jssf0kwe4oie2dt.png?format=webp&quality=lossless&width=400&height=400" alt="docker"></td>
-  </tr>
-   <tr>
-    <th>Spring boot</th>
-    <th>JPA</th>
-    <th>Security</th>
-    <th>MySQL</th>
-    <th>Docker</th>
-   </tr>
-</table>
-<table>
-  <tr>
-<td><img width="100" src="https://images-ext-1.discordapp.net/external/0oYbouvj0yfZJrE2HcvnrLIi1XaRvzFTO0bTD5EE2YM/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566777755/noticon/yfmwxv8nhnr5aqaxhxpg.png?format=webp&quality=lossless&width=400&height=400" alt="aws"></td>
-<td><img width="100" src="https://images-ext-1.discordapp.net/external/r7AMXUsT0fZFCTBXVJbZuLOoNuKPVgyrwDzFqau4PXQ/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567064876/noticon/sb5llmvfubuceldbkmx8.png?format=webp&quality=lossless&width=400&height=400" alt="s3"></td>
-<td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913679/noticon/xlnsjihvjxllech0hawu.png" alt="redis"></td>
-<td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566798146/noticon/lku5cppzh8r7awwsmmko.png" alt="Nginx"></td>
-  </tr>
-   <tr>
-    <th>AWS</th>
-    <th>S3</th>
-    <th>Redis</th>
-    <th>Nginx</th>
-  </tr>
-</table>
 
-<h3>Test & CI/Cd</h3>
-<table>
-  <tr>
-    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1627370220/noticon/qybtzgqcp92zlsqc1kj4.png" alt="JUnit5"></td>
-    <td><img width="100" src="https://images-ext-1.discordapp.net/external/64gUc-2YomqC0USAGcDN2HYMb2Pb8VvLDBuaUleeit4/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1673248072/noticon/uj1sljza7nnsj0lpilwk.png?format=webp&quality=lossless&width=400&height=400" alt="github action"></td>
-     <td><img width="100" src="https://images-ext-1.discordapp.net/external/gBI7WFAgYgsCZ7FzEJ1tEAuhXNSEPvwTIv-82Q4gfEQ/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1679312641/noticon/rx8rni4npifrbo9ckxmt.png?format=webp&quality=lossless&width=400&height=400"alt="vercel"
-  </tr>
-  <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566778391/noticon/l0uiouhpeiq31huqu7ft.jpg" alt="Jenkins"></td>
-  <tr>
-    <th>Github action</th>
-    <th>Vercel</th>
-    <th>JUnit5</th>
-    <th>Jenkins</th>
-  </tr>
-</table>
 
 <h3>Communication</h3>
 <table>
