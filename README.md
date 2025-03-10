@@ -10,25 +10,19 @@
 - 🔗 <a href="https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_FE"> Frontend Repository</a>
 
 ## 🩷 프로젝트 기간 
-**2024.11.12 ~ 2024.12.19**
+**2024.11.12 ~ 2024.12.19** <br />
+**2025.01.14 ~ 2025.02.17 [리팩토링 진행]**
 
-## 🩷 리팩토링 기간 
-**2025.01.14 ~ 2025.02.17**
-
-**리팩토링 및 최적화 과정** 
-<a> : https://devsubin.hashnode.dev/</a>
-
+**최적화 과정을 기록했습니다.**
+➡️ <a> https://devsubin.hashnode.dev/</a>
     
 ## 🩷 Figma
-<a href="https://www.figma.com/design/0cGW8rkHYLpa2Q2tDC7uSY/%EC%82%B0%EC%B1%85%EC%8B%9C%EC%BC%9C%EC%A1%B0?node-id=2142-228&t=TZzNLFFZLisTf3yL-1">**🔗 Figma 확인하기**</a>
-<br />
 <br />
 <img width="1048" alt="figma" src="https://github.com/user-attachments/assets/b3994d96-ecb2-4a4c-9bac-a62b2a482c55" />
 
-
-
 ## 🩷 맡은 페이지 & 역할 
 ### 프론트엔드(FE)
+  - 디자인
   - 반려동물 CRUD
   - 유저 마이페이지
   - 리뷰 CRUD
@@ -36,3 +30,5 @@
   - 알림(FCM)
   - Admin페이지
   - 스토리 업로드 및 삭제 기능 구현
+
+
