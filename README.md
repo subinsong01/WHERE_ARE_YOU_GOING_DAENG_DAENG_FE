@@ -22,13 +22,44 @@
 
 ## 🩷 맡은 페이지 & 역할 
 ### 프론트엔드(FE)
-  - 디자인
-  - 반려동물 CRUD
-  - 유저 마이페이지
-  - 리뷰 CRUD
-  - How-to-guide 페이지 및 배너 제작
-  - 알림(FCM)
-  - Admin페이지
-  - 스토리 업로드 및 삭제 기능 구현
+🙌🏻 `반려동물 CRUD`
+<details>
+  <summary><strong>✨ gif</strong></summary>
+  <img src="https://github.com/user-attachments/assets/dd58b9b6-1008-4239-8a76-2186e102ed46" alt="pet_add">
+</details>
 
+🙌🏻 `유저 마이페이지`
 
+**[리팩토링 전]**
+
+<details>
+  <summary><strong>✨ gif</strong></summary>
+     <img src="https://github.com/user-attachments/assets/e3832929-586f-4cad-818b-6133ccc4641a" alt="my_page">
+</details>
+
+**[리팩토링 후]**
+
+<details>
+  <summary><strong>✨ gif</strong></summary>
+  <img src="https://github.com/user-attachments/assets/f887f35d-b4bc-4bc4-ac51-8eb5be25b0ec" alt="pet_add">
+</details>
+
+🙌🏻 `알림(FCM)`
+
+<details>
+  <summary><strong>✨ gif</strong></summary>
+  <img src="https://github.com/user-attachments/assets/001f8e71-8121-46f0-a9e7-14fc5b71372b" alt="alarm">
+</details>
+
+<details>
+  <summary><strong>✨ gif</strong></summary>
+  <img src="https://github.com/user-attachments/assets/8ead31d7-cad0-4cc0-86f9-5dbdc911bb84" alt="alarm">
+  <img width="300" src="https://github.com/user-attachments/assets/f3541c05-efc7-42bc-9b24-4c6873c90b8f" alt="alarm">
+</details>
+
+🙌🏻 `스토리 업로드 및 삭제 기능 구현`
+
+<details>
+  <summary><strong>✨ gif</strong></summary>
+  <img src="https://github.com/user-attachments/assets/3398e61a-9bb1-4a4c-b5cc-e772c31b0f77" alt="story">
+</details>
