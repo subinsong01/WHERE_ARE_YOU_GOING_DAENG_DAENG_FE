@@ -18,48 +18,57 @@
     
 ## 🩷 Figma
 <br />
-<img width="1048" alt="figma" src="https://github.com/user-attachments/assets/b3994d96-ecb2-4a4c-9bac-a62b2a482c55" />
+<img width="800" alt="figma" src="https://github.com/user-attachments/assets/b3994d96-ecb2-4a4c-9bac-a62b2a482c55" />
 
 ## 🩷 맡은 페이지 & 역할 
 ### 프론트엔드(FE)
 🙌🏻 `반려동물 CRUD`
 <details>
-  <summary><strong>✨ gif</strong></summary>
+  <summary><strong>✨ 클릭 </strong></summary>
   <img src="https://github.com/user-attachments/assets/dd58b9b6-1008-4239-8a76-2186e102ed46" alt="pet_add">
+
+    1. 반려동물 이미지를 등록할 때 Presigned URL을 활용하여 직접 파일을 업로드하여 성능을 최적화하고 서버 부하를 줄였습니다.
+    2. 반려동물 이미지 등록, 수정, 추가 기능에서 이미지 등록 코드 중복을 최소화하기 위해 로직을 util 폴더로 분리하였습니다.
 </details>
+
 
 🙌🏻 `유저 마이페이지`
-
-**[리팩토링 전]**
-
 <details>
-  <summary><strong>✨ gif</strong></summary>
-     <img src="https://github.com/user-attachments/assets/e3832929-586f-4cad-818b-6133ccc4641a" alt="my_page">
-</details>
-
-**[리팩토링 후]**
-
-<details>
-  <summary><strong>✨ gif</strong></summary>
+  <summary><strong> ✨ 클릭</strong></summary>
   <img src="https://github.com/user-attachments/assets/f887f35d-b4bc-4bc4-ac51-8eb5be25b0ec" alt="pet_add">
+
+    1. skeleton ui를 삽입함으로써 사용자 경험을 향상시켰습니다.
+    2. 반려동물의 성별에 따라 아이콘을 다르게 표시하여 직관성을 높였습니다.
+
 </details>
 
 🙌🏻 `알림(FCM)`
 
 <details>
-  <summary><strong>✨ gif</strong></summary>
-  <img src="https://github.com/user-attachments/assets/001f8e71-8121-46f0-a9e7-14fc5b71372b" alt="alarm">
+  <summary><strong>✨ 클릭</strong></summary>
+  <img src="https://github.com/user-attachments/assets/001f8e71-8121-46f0-a9e7-14fc5b71372b" alt="alarm"> <br />
+  <img width="300" src="https://github.com/user-attachments/assets/f3541c05-efc7-42bc-9b24-4c6873c90b8f" alt="alarm">
+
+    1. FCM을 활용한 실시간 알림 기능을 구현하여 사용자 경험을 개선하였습니다.
+    2. 백그라운드 및 포그라운드 상태에서도 알림을 받을 수 있도록 설정하였습니다.
+    3. 알림 페이지 진입 시 서비스 워커가 자동으로 등록되도록 구현하였습니다.
+    4. skeleton ui를 삽입함으로써 사용자 경험을 향상시켰습니다.
 </details>
 
+🙌🏻 `리뷰 등록 & 리뷰 조회`
+
 <details>
-  <summary><strong>✨ gif</strong></summary>
-  <img src="https://github.com/user-attachments/assets/8ead31d7-cad0-4cc0-86f9-5dbdc911bb84" alt="alarm">
-  <img width="300" src="https://github.com/user-attachments/assets/f3541c05-efc7-42bc-9b24-4c6873c90b8f" alt="alarm">
+  <summary><strong>✨ 클릭</strong></summary>
+  <img src="https://github.com/user-attachments/assets/103af025-0848-434d-94cb-46a26eb8ba33" alt="리뷰조회">
+
+    1. 게시물 등록 시 이미지와 동영상 첨부를 위해 Presigned URL을 활용하여 성능을 최적화하고 서버 부하를 줄였습니다.
+    2. LCP가 큰 아이콘을 useMemo로 최적화하여 렌더링 성능을 개선했습니다.
+    3. input 및 select 요소에 aria-label을 추가하여 접근성과 SEO를 향상시켰습니다.
 </details>
 
 🙌🏻 `스토리 업로드 및 삭제 기능 구현`
 
 <details>
-  <summary><strong>✨ gif</strong></summary>
+  <summary><strong>✨ 클릭</strong></summary>
   <img src="https://github.com/user-attachments/assets/3398e61a-9bb1-4a4c-b5cc-e772c31b0f77" alt="story">
 </details>
